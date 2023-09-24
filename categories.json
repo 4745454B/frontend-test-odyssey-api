@@ -1,0 +1,15 @@
+{
+    "categories": [
+        { "displayName": "Craft Supplies & Tools", "category": "craft-supplies-tools" },
+        { "displayName": "Electronics & Accessories", "category": "electronics-accessories" },
+        { "displayName": "Art & Collectibles", "category": "art-collectibles" },
+        { "displayName": "Books, Films & Music", "category": "books-films-music" },
+        { "displayName": "Home & Living", "category": "home-living" },
+        { "displayName": "Clothing", "category": "clothing" },
+        { "displayName": "Accessories", "category": "accessories" },
+        { "displayName": "Toys & Games", "category": "toys-games" },
+        { "displayName": "Paper & Party Supplies", "category": "paper-party_supplies" },
+        { "displayName": "Bags & Purses", "category": "bags-purses" },
+        { "displayName": "Jewellery", "category": "jewellery" }
+    ]
+}
