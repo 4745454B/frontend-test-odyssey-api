@@ -4,7 +4,7 @@ header('Access-Control-Allow-Origin: http://localhost:3000');
 header('Content-Type: application/json');
 
 if ($_SERVER['REQUEST_METHOD'] === 'GET' && $_GET['endpoint'] === 'products') {
-    $productsFile = './products.json';
+    $productsFile = '/api/products.json';
     if(!file_exists($productsFile) && filesize($productsFile) <= 0) exit;
 
     $data = file_get_contents($productsFile);
@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && $_GET['endpoint'] === 'products') {
     echo json_encode($response);
 } 
 else if ($_SERVER['REQUEST_METHOD'] === 'GET' && $_GET['endpoint'] === 'categories'){
-    $categoriesFile = './categories.json';
+    $categoriesFile = '/api/categories.json';
     if(!file_exists($categoriesFile) && filesize($categoriesFile) <= 0) exit;
 
     $data = file_get_contents($categoriesFile);
