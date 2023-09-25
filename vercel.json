@@ -5,6 +5,9 @@
         }
     },
     "routes": [
-        { "src": "/(.*)",  "dest": "index.php" }
+        { "src": "/(.*)",  "dest": "/api/index.php" },
+        { "src": "/api/categories.json",  "dest": "/api/categories.json" },
+        { "src": "/api/products.json",  "dest": "/api/products.json" }
+
   ]
 }
